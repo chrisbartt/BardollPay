@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-community/async-storage';
-
+import { API_URL } from '../../utils/Config';
+import { timeoutPromise } from '../../utils/Tools';
 export const SIGN_IN = 'SIGN_IN';
 export const AUTHENTICATE = 'AUTHENTICATE';
 export const SIGN_OUT = 'SIGN_OUT';
