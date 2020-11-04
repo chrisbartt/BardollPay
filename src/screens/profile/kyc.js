@@ -120,7 +120,7 @@ const KycScreen = (props) => {
                 selectPhotoTapped();
               }}>
               <LinearGradient
-                colors={['#ca8af5', '#A230ED']}
+                colors={['#f0b522', '#f0b522']}
                 style={styles.uploadBtn}>
                 <Text style={styles.uploadText}>Upload Picture</Text>
               </LinearGradient>
@@ -146,7 +146,7 @@ const KycScreen = (props) => {
           uploadKyc();
         }}>
         <LinearGradient
-          colors={['#ca8af5', '#A230ED']}
+          colors={['#f0b522', '#f0b522']}
           style={styles.bottomBtn}>
           <Text style={styles.btnText}>SUBMIT</Text>
         </LinearGradient>
