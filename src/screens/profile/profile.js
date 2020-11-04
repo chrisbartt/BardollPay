@@ -101,7 +101,7 @@ const ProfileScreen = (props) => {
 
               <TouchableOpacity activeOpacity={0.7}>
                 <LinearGradient
-                  colors={['#ca8af5', '#A230ED']}
+                  colors={['#f0b522', '#f0b522']}
                   style={styles.editBtn}>
                   <Text style={styles.editText}>Update Details</Text>
                 </LinearGradient>
@@ -156,7 +156,7 @@ const ProfileScreen = (props) => {
               props.navigation.navigate('Kyc');
             }}>
             <LinearGradient
-              colors={['#ca8af5', '#A230ED']}
+              colors={['#f0b522', '#f0b522']}
               style={styles.editBtn}>
               <Text style={styles.editText}>Update KYC</Text>
             </LinearGradient>
