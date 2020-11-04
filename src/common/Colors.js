@@ -5,7 +5,7 @@ const Colors = {
   Primery: '#2a323a',
   PrimeryDark: '#252a30',
   PrimeryLight: '#32404d',
-  Accent: '#A230ED',
+  Accent: '#f0b522',
   WHITE: 'rgb(255, 255, 255)',
   GREEN: 'rgb(59, 199, 44)',
   BLUE: 'rgb(93, 114, 255)',
@@ -36,7 +36,7 @@ const Colors = {
   ERR_PINCODE: '#FF0000',
   PROGRESSBAR_COLOR: 'rgb(160,249,255)',
   BAR_COLOR: 'rgb(0,245,234)',
-  CANVAS_GRAY: '#EDE2F4',
+  CANVAS_GRAY: '#f0b522',
 };
 
 export default Colors;
