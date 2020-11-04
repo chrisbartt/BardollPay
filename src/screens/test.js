@@ -40,45 +40,45 @@ const TestScreen = props => {
   return (
     <View style={styles.Conatainer}>
       <LinearGradient
-        colors={['#A230ED', '#A230ED', '#A230ED']}
+        colors={['#f0b522', '#f0b522', '#f0b522']}
         style={styles.editBtn}>
         <Text style={styles.editText}>Update KYC</Text>
       </LinearGradient>
 
       <TouchableOpacity activeOpacity={0.7}>
-        <LinearGradient colors={['#ca8af5', '#A230ED']} style={styles.editBtn}>
+        <LinearGradient colors={['#f0b522', '#f0b522']} style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
       </TouchableOpacity>
 
       <TouchableOpacity activeOpacity={0.7}>
-        <LinearGradient colors={['#d5a1f7', '#A230ED']} style={styles.editBtn}>
+        <LinearGradient colors={['#f0b522', '#f0b522']} style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
       </TouchableOpacity>
 
       <LinearGradient
-        colors={['#a230ed', '#ca8af5', '#A230ED']}
+        colors={['#f0b522', '#f0b522', '#f0b522']}
         style={styles.editBtn}>
         <Text style={styles.editText}>Update KYC</Text>
       </LinearGradient>
 
       <TouchableOpacity activeOpacity={0.7}>
-        <LinearGradient colors={['#A230ED', '#ca8af5']} style={styles.editBtn}>
+        <LinearGradient colors={['#f0b522', '#f0b522']} style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
       </TouchableOpacity>
 
       <TouchableOpacity activeOpacity={0.7}>
         <LinearGradient
-          colors={['#ca8af5', '#A230ED', '#d5a1f7']}
+          colors={['#f0b522', '#f0b522', '#f0b522']}
           style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
       </TouchableOpacity>
 
       <TouchableOpacity activeOpacity={0.7}>
-        <LinearGradient colors={['#A230ED', '#d5a1f7']} style={styles.editBtn}>
+        <LinearGradient colors={['#f0b522', '#f0b522']} style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
       </TouchableOpacity>
@@ -87,7 +87,7 @@ const TestScreen = props => {
         <LinearGradient
           start={{x: 0, y: 0}}
           end={{x: 1, y: 0}}
-          colors={['#ca8af5', '#A230ED']}
+          colors={['#f0b522', '#f0b522']}
           style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
@@ -97,7 +97,7 @@ const TestScreen = props => {
         <LinearGradient
           start={{x: 0, y: 0}}
           end={{x: 1, y: 0}}
-          colors={['#ca8af5', '#A230ED', '#d5a1f7']}
+          colors={['#f0b522', '#f0b522', '#f0b522']}
           style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
@@ -107,7 +107,7 @@ const TestScreen = props => {
         <LinearGradient
           start={{x: 0, y: 0}}
           end={{x: 1, y: 1}}
-          colors={['#ca8af5', '#A230ED', '#d5a1f7']}
+          colors={['#f0b522', '#f0b522', '#f0b522']}
           style={styles.editBtn}>
           <Text style={styles.editText}>Update KYC</Text>
         </LinearGradient>
