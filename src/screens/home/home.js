@@ -33,9 +33,7 @@ const HomeScreen = (props) => {
     console.log(item);
     if (
       item.name === 'Prepaid' ||
-      item.name === 'Postpaid' ||
       item.name === 'DTH' ||
-      item.name === 'Datacard' ||
       item.name === 'Gas' ||
       item.name === 'Power Bill'
     ) {
