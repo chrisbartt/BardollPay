@@ -54,9 +54,7 @@ const RechargeScreen = (props) => {
   };
 
   // item.name === 'Prepaid' ||
-  //   item.name === 'Postpaid' ||
-  //   item.name === 'DTH' ||
-  //   item.name === 'Datacard';
+  //   item.name === 'DTH';
 
   return (
     <View style={{flex: 1}}>
@@ -102,9 +100,7 @@ const RechargeScreen = (props) => {
                 placeholder={
                   serviceName === 'DTH'
                     ? 'Entrez votre numéro abonné'
-                    : serviceName === 'Datacard'
-                    ? 'Entrez votre numéro'
-                    : 'Entrer votre numéro'
+                    : "Entrer le type d'abonnement"
                 }
                 autoCompleteType={'tel'}
                 keyboardType={'phone-pad'}
