@@ -46,26 +46,6 @@ const CustomHeader = (props) => {
           </Touch>
         </View>
       </View>
-      <View style={styles.HeaderSection}>
-        <Touch useForeground onPress={props.onBellPress}>
-          <View style={styles.HeaderButton}>
-            <Icon
-              name={'notifications'}
-              color={Colors.WHITE}
-              size={Scales.moderateScale(25)}
-            />
-          </View>
-        </Touch>
-        <Touch useForeground onPress={props.onRefreshPress}>
-          <View style={styles.HeaderButton}>
-            <Icon
-              name={'reload'}
-              color={Colors.WHITE}
-              size={Scales.moderateScale(25)}
-            />
-          </View>
-        </Touch>
-      </View>
     </View>
   );
 };
