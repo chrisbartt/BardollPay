@@ -70,9 +70,6 @@ const HomeScreen = (props) => {
         onQRPress={() => {
           setShowQR(true);
         }}
-        onBellPress={() => {
-          props.navigation.navigate('BillNotification');
-        }}
       />
       <Modal
         animationType="slide"
